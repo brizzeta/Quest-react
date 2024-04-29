@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Переведіть слово 'стіл'.",
+    "options": ["table", "chair", "book", "car"],
+    "correctAnswer": "table"
+  },
+  {
+    "question": "Переведіть слово 'сонце'.",
+    "options": ["sun", "moon", "star", "sky"],
+    "correctAnswer": "sun"
+  },
+  {
+    "question": "Переведіть слово 'дерево'.",
+    "options": ["tree", "flower", "river", "mountain"],
+    "correctAnswer": "tree"
+  },
+  {
+    "question": "Переведіть слово 'кіт'.",
+    "options": ["cat", "dog", "bird", "fish"],
+    "correctAnswer": "cat"
+  },
+  {
+    "question": "Переведіть слово 'молоко'.",
+    "options": ["milk", "juice", "water", "tea"],
+    "correctAnswer": "milk"
+  },
+  {
+    "question": "Переведіть слово 'автомобіль'.",
+    "options": ["car", "bicycle", "bus", "train"],
+    "correctAnswer": "car"
+  },
+  {
+    "question": "Переведіть слово 'книга'.",
+    "options": ["book", "pen", "pencil", "paper"],
+    "correctAnswer": "book"
+  },
+  {
+    "question": "Переведіть слово 'домашня рослина'.",
+    "options": ["houseplant", "tree", "flower", "grass"],
+    "correctAnswer": "houseplant"
+  },
+  {
+    "question": "Переведіть слово 'комп'ютер'.",
+    "options": ["computer", "phone", "tablet", "television"],
+    "correctAnswer": "computer"
+  },
+  {
+    "question": "Переведіть слово 'сніг'.",
+    "options": ["snow", "rain", "wind", "sun"],
+    "correctAnswer": "snow"
+  }
+]
