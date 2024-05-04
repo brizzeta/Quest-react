@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Question from './question';
 import questionsData from '../data/questions.json'; // Импорт данных из файла
+import { useNavigate } from 'react-router-dom';
+
 
 const Quiz = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -31,7 +33,10 @@ const Quiz = () => {
       />
     );
   };
-
+  const navigate = useNavigate();
+	const handleBack =()=>{
+		navigate('/')
+	}
   const renderStats = () => {
     const totalQuestions = questionsData.length;
     return (
@@ -40,6 +45,7 @@ const Quiz = () => {
         <p>Total Questions: {totalQuestions}</p>
         <p>Correct Answers: {correctAnswers}</p>
         <p>Incorrect Answers: {incorrectAnswers}</p>
+        <button onClick={handleBack}>Назад</button>
       </div>
     );
   };

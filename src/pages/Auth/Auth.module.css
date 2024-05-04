@@ -1,0 +1,44 @@
+  .form-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: white;
+    width: 93%;
+  }
+  
+  
+  .button.disabled {
+    background-color: #ccc;
+    color: #888;
+    cursor: not-allowed; 
+    pointer-events: none;
+    border: none;
+  }
+  
+  .message.error {
+    color: red;
+  }
+  
+  
+  .loginLink {
+    text-align: center; 
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .link a {
+    color: peru; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.2s;
+  }
+  
+  .link a:hover {
+    color: rgb(183, 120, 57); 
+  }
